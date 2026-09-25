@@ -1,0 +1,19 @@
+# Archives
+*.zip
+
+# Large dataset files (not tracked in git)
+**/dataset/
+**/artifacts/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# OS / editor cruft
+.DS_Store
+__MACOSX/
